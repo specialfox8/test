@@ -124,7 +124,7 @@ public class FXML_DisplayNilaiController implements Initializable {
        Alert a=new Alert(Alert.AlertType.CONFIRMATION,"Mau dihapus?",               ButtonType.YES,ButtonType.NO);
        a.showAndWait();
        if(a.getResult()==ButtonType.YES){
-           if(FXMLDocumentController.dtnilai.delete(s.getNPM())){
+           if(FXMLDocumentController.dtnilai.delete(s.getNpm())){
                Alert b=new Alert(Alert.AlertType.INFORMATION,                  "Data berhasil dihapus", ButtonType.OK);
                b.showAndWait();
            } else {

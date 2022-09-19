@@ -11,16 +11,16 @@ import java.sql.Date;
  * @author LIKMI
  */
 public class NilaiModel {
-    private String npm,kodemk;
+    private String Npm,kodemk;
     private Date tanggal;
     private double nilai;
     private int hadir;
     
     public String getNpm(){  
-        return npm;    }
+        return Npm;    }
     
     public void setNpm(String npm) {  
-        this.npm = npm;   
+        this.Npm = Npm;   
     }
     
     public String getKodemk() {   

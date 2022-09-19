@@ -109,7 +109,10 @@ public class FXML_InputNilaiController implements Initializable {
 
     @FXML
     private void keluarklik(ActionEvent event) {
+        btnkeluar.getScene().getWindow().hide();
     }
+    boolean editdata=false;
+    
     public void execute(NilaiModel d){
         if(!d.getNpm().isEmpty()&&!d.getKodemk().isEmpty()){
           editdata=true;

@@ -71,9 +71,6 @@ public class FXML_InputSiswaController implements Initializable {
             txtnpm.requestFocus();
 
             }
-
-
-
     }
 
     @FXML
